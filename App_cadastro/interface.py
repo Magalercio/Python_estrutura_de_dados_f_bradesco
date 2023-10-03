@@ -71,8 +71,8 @@ class Gui():
         else:
             child.grid_configure(padx=x_pad, pady=y_pad, sticky='N')
 
-def run():
-    Gui.window.mainloop()
+    def run(self):
+        Gui.window.mainloop()
 
 
 
